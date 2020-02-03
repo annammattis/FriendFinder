@@ -3,19 +3,123 @@
 // {
 //   "name":"Ahmed",
 //   "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-//   "scores":[
-//       5,
-//       1,
-//       4,
-//       4,
-//       5,
-//       1,
-//       2,
-//       5,
-//       4,
-//       1
-//     ]
+//   "scores":[ 5, 1, 4, 4, 5, 1, 2, 5, 4, 1 ]
 // }
+
+var friends = [
+    {
+        "name": "Livvy",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Marie",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Hannah",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Brenda",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Jamie",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Chelsea",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Alex",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Liz",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Kendall",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Dana",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Kate",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Sam",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Andrew",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Jake",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Dan",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Gavin",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Adam",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Chris",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Kitt",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Connor",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Scott",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    },
+    {
+        "name": "Luke",
+        "photo": "URL",
+        "scores": [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+    }
+];
+
+module.export(friends);
 
 // Determine the user's most compatible friend using the following as a guide:
 
