@@ -1,5 +1,5 @@
 // Your apiRoutes.js file should contain two routes:
-var friends = require("/friends.js")
+var friends = require("../data/friends")
 module.exports = function (app) {
     // A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
     // GET method route

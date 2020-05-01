@@ -6,26 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Anna's Friend Finder</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+      <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, Friend!</h1>
-        <p class="lead">This is a way for you to find friends to hang out with that you actually get along with, cause
-            nobody likes bad vibes.</p>
-        <hr class="my-4">
-        <p>Amirite?</p>
-        <a class="btn btn-primary btn-lg" href="/survey" role="button">Click Me!</a>
-    </div>
+    <div class="container">
 
-    <div>
-        <div>
-            <a href="/api/friends">API List</a>
+        <div class="jumbotron">
+          <h1><i class="fa fa-facebook-square" aria-hidden="true"></i>Hello, Friend!</h1>
+          <hr>
+          <h2>This is a way for you to find friends to hang out with that you actually get along with </h2>
+          <h2>cause nobody likes bad vibes.</h2>
+          <br>
+    
+          <div>
+            <a href="/survey"><button class="btn btn-lg btn-primary"><h4><span class="fa fa-list-alt"></span> Go to Survey</h4></button></a>
+          </div>
+    
         </div>
-    </div>
+    
+        <footer class="footer">
+          <div class="container">
+            <p><a href="/api/friends">Friends List</a> | <a href="https://github.com/annammattis/FriendFinder">GitHub Repo</a></p>
+          </div>
+        </footer>
+    
+      </div>
 
 </body>
 
 </html>
+
+
