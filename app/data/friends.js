@@ -99,5 +99,5 @@ var friends = [
     }
 ];
 
-module.export(friends);
+module.export = 'friends';
 
