@@ -4,6 +4,10 @@ var express = require('express');
 var app = express();
 var PORT = process.env.PORT || 8080;
 
+app.get("/", function(req, res) {
+    res.json(path.join(__dirname, "./app/public/home.html"));
+  });
+
 // express.json and express.urlEncoded make it easy for our server to interpret data sent to it.
 // The code below is pretty standard.
 app.use(express.urlencoded({ extended: true }));
