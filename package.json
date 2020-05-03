@@ -1,8 +1,11 @@
 {
-    "name": "myapp",
-    "description": "FriendFinder",
-    "version": "12.8.1",
-    "engines": {
-      "node": "12.16.x"
-    }
+  "name": "myapp",
+  "description": "FriendFinder",
+  "version": "12.8.1",
+  "engines": {
+    "node": "12.16.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
+}
