@@ -6,7 +6,7 @@
     "node": "12.16.x"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "dotenv": "^8.2.0"
